@@ -1,5 +1,8 @@
 # GPT-to-Ollama
 
+This is a fork I'm making for my own personal use. It uses Ollama for the agents under the control of the 'Boss GPT' that's running in my ChatGPT account. I customized my personal copy to have very different agents, and you should too.
+
+
 ## Description
 
 This project is part of the [Syntax Sunday series](https://blog.bloodlinealpha.com/) in which I showcase different software/technology through simple and fun examples. GPT-to-GPT utilizes the OpenAI Chat Completions API, as well as, custom GPTS's using Actions. The idea is to create many Agents or LLM Agents (using either the API or custom GPTs) that work together to solve problems and complete tasks.
