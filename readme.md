@@ -1,4 +1,4 @@
-# GTP-to-GTP
+# GTP-to-GTP - Ollama Remix
 
 ## Description
 
