@@ -4,18 +4,18 @@ const api_key = process.env.OPENAI_API_KEY;
 
 // Replace with your local Ollama server URL 
 const OLLAMA_API_URL = "http://localhost:11434";  
-const OLLAMA_MODEL_NAME = "llama3:8b"; // Replace with your desired model name
 
 const openai = new OpenAI({
     apiKey: api_key,
     baseUrl: OLLAMA_API_URL // Set the base URL to your local Ollama server
 });
 
-exports.openaiRequest = async (messages) => {
+// Function to handle OpenAI requests with specific model settings for each agent
+exports.openaiRequest = async (messages, modelName) => {
     if (api_key === null) return null;
 
     const options = {
-        model: OLLAMA_MODEL_NAME, // Use the Ollama model name
+        model: modelName, // Use the provided model name for this request
         messages: messages,
         frequency_penalty: 0.5,
         presence_penalty: 0.5,
