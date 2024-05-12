@@ -1,5 +1,7 @@
 # GPT-to-Ollama
 
+<img src="https://2acrestudios.com/wp-content/uploads/2024/05/8pqr85.jpg" />
+
 This is a fork I'm making for my own personal use. It uses Ollama for the agents under the control of the 'Boss GPT' that's running in my ChatGPT account. I customized my personal copy to have very different agents, and you should too. I also added the ability to set each local agent to a unique LLM.
 
 
